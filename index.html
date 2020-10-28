@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">   
+    <title>Portafolio-Daniel Lenis</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src="https://kit.fontawesome.com/fb43ffea6a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="estilos.css">
+    </head>
+<body>
+    
+    <div class="contenedor">
+        <header>
+            <div class="logo">
+                <h1>MD STORE MANIZALES</h1>
+                <p>Elige lo que mas te guste</p>
+            </div>
+            <form action="">
+                <input type="text" class="barra-busqueda" id="barra-busqueda" placeholder="Buscar">
+            </form>
+            <!--Categorias-->
+            <div class="categorias" id="categorias">
+                <a href="#" class="activo">Todos</a>
+                <a href="#">Mujer</a>
+                <a href="#">Hombre</a>
+                
+            </div>
+        </header>
+
+        <section class="grid" id="grid">
+            <div class="item"
+              data-categoria="Hombre"
+              data-etiquetas="Camiseta hombre negra sencilla"
+              data-descripcion="descripcion 1"
+          >
+
+                <div class="item-contenido">
+                    <img src="img/img1.jpg" alt="">
+                </div>
+            </div>
+            
+            <div class="item"
+              data-categoria="Hombre"
+              data-etiquetas="boxer rojo gris azul"
+              data-descripcion="descripcion 2"
+          >
+
+                <div class="item-contenido">
+                    <img src="img/img2.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="item"
+              data-categoria="Hombre"
+              data-etiquetas="camiseta hombre roja sencilla"
+              data-descripcion="descripcion 3"
+          >
+
+                <div class="item-contenido">
+                    <img src="img/img3.jpg" alt="">
+                </div>
+            </div>
+            
+            <div class="item"
+              data-categoria="Mujer"
+              data-etiquetas="camiseta blanca mujer sencilla"
+              data-descripcion="descripcion 4"
+          >
+
+                <div class="item-contenido">
+                    <img src="img/img4.jpg" alt="">
+                </div>
+            </div>
+            <div class="item"
+              data-categoria="Hombre"
+              data-etiquetas="camiseta amarilla sencilla hombre"
+              data-descripcion="descripcion 5"
+          >
+
+                <div class="item-contenido">
+                    <img src="img/img5.jpg" alt="">
+                </div>
+            </div>
+            <div class="item"
+              data-categoria="Hombre"
+              data-etiquetas="camiseta hombre gris sencilla talla"
+              data-descripcion="descripcion 6"
+          >
+
+                <div class="item-contenido">
+                    <img src="img/img6.jpg" alt="">
+                </div>
+            </div>
+            <div class="item"
+              data-categoria="Mujer"
+              data-etiquetas="camiseta negra"
+              data-descripcion="descripcion 7"
+          >
+
+                <div class="item-contenido">
+                    <img src="img/img7.jpg" alt="">
+                </div>
+            </div>
+            <div class="item"
+              data-categoria="Hombre"
+              data-etiquetas="camiseta blanca "
+              data-descripcion="descripcion 8"
+          >
+
+                <div class="item-contenido">
+                    <img src="img/img8.jpg" alt="">
+                </div>
+            </div>
+            <div class="item"
+              data-categoria="Hombre"
+              data-etiquetas="camiseta polo gris mangas negras"
+              data-descripcion="descripcion 9"
+          >
+
+                <div class="item-contenido">
+                    <img src="img/img9.jpg" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section class="overlay" id="overlay">
+            <div class="contenedor-img">
+                <button id="btn-cerrar-popup"><i class="far fa-times-circle"></i></button>
+                <img src="" alt="">
+                <p class="descripcion"></p>
+            </div>
+
+        </section>
+
+        <footer class="contenedor">
+            <div class="redes-sociales">
+                <div class="contenedor-icono">
+                    <a href="#" target="_blank" class="facebook"><i class="fab fa-facebook-square"></i></a>
+                    
+                </div>
+                <div class="contenedor-icono">
+                    <a href="#" target="_blank" class="instagram"><i class="fab fa-instagram"></i></a>
+                    
+                </div>
+                <div class="contenedor-icono">
+                    <a href="#" target="_blank" class="google"><i class="fab fa-google"></i></a>
+                    
+                </div>
+            </div>
+            <div class="creado-por">
+                <p>Desarrollado por ©Daniel Lenis</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://unpkg.com/web-animations-js@2.3.2/web-animations.min.js"></script>
+    <script src="https://unpkg.com/muuri@0.8.0/dist/muuri.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
